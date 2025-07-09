@@ -1,6 +1,7 @@
 .columns > div {
   display: flex;
   flex-direction: column;
+	gap: 2rem
 }
 
 .columns img {
@@ -9,6 +10,7 @@
 
 .columns > div > div {
   order: 1;
+	color: #fff;
 }
 
 .columns > div > .columns-img-col {
@@ -19,11 +21,39 @@
   display: block;
 }
 
+.columns > div > div:not(.columns-img-col) {
+	text-align: center;
+	padding: 2.5rem 3rem;
+}
+
+.columns > div > div:not(.columns-img-col) > p:first-of-type {
+	font-size: 32px;
+	margin: 0;
+	line-height: 1;
+}
+
+.columns > div > div:not(.columns-img-col) > p:nth-of-type(2) {
+	margin: 2rem 0;
+}
+
+.columns > div > div:not(.columns-img-col) > p:not(:first-of-type),
+.columns > div > div:not(.columns-img-col) > p:not(:first-of-type) * {
+	font-size: 15px;
+}
+
+.columns > div > div:not(.columns-img-col):nth-of-type(1) {
+	background-color: rgb(80, 113, 153);
+}
+
+.columns > div > div:not(.columns-img-col):nth-of-type(2) {
+	background-color: rgb(0, 31, 63);
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
     flex-direction: unset;
-    gap: 24px;
+    gap: 4rem;
   }
 
   .columns > div > div {
