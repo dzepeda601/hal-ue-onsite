@@ -3,3 +3,8 @@ mountpoints:
     url: "https://author-p128727-e1256870.adobeaemcloud.com/bin/franklin.delivery/dzepeda601/hal-ue-onsite/main"
     type: "markup"
     suffix: ".html"
+
+mountpoints:
+  /:
+    url: https://content.da.live/dzepeda601/hal-ue-onsite/
+    type: markup
