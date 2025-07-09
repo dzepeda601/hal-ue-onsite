@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/hal-ue-onsite/:/",
+    "/content/hal-ue-onsite/configuration:/.helix/config.json",
+    "/content/hal-ue-onsite/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/hal-ue-onsite/"
   ]
 }
